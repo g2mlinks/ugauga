@@ -1316,6 +1316,10 @@ body.lktree-page .container {
   --d: .36s;
 }
 
+.lktree-links .lktree-link:nth-child(4) {
+  --d: .44s;
+}
+
 .lktree-link {
   position: relative;
   display: flex;
@@ -1533,7 +1537,8 @@ body.lktree-page {
 
 /* Mesmo estilo de rótulo do primeiro botão: Instagram */
 .lktree-links .lktree-link:nth-child(1) .lktree-link-label,
-.lktree-links .lktree-link:nth-child(2) .lktree-link-label {
+.lktree-links .lktree-link:nth-child(2) .lktree-link-label,
+.lktree-links .lktree-link:nth-child(4) .lktree-link-label {
   font-family: var(--font-mono);
   font-size: .68rem;
   letter-spacing: .14em;
